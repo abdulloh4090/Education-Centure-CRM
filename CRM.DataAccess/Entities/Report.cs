@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Education.Centure.CRM.DataAccess.Entities
+﻿namespace Education.Centure.CRM.DataAccess.Entities
 {
-    internal class Report
+    public class Report : BaseEntity
     {
+        public DateTime GeneratedAt { get; set; }
+
+        public string Title { get; set; }
+        public string JsonData { get; set; } // Yoki boshqa format
     }
 }

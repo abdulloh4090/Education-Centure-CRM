@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Education.Centure.CRM.DataAccess.Entities
+﻿namespace Education.Centure.CRM.DataAccess.Entities
 {
-    internal class Schedule
+    public class Schedule : BaseEntity
     {
+
+        public int GroupId { get; set; }
+        public Group Group { get; set; }
+
+        public DayOfWeek DayOfWeek { get; set; } // Monday, Wednesday...
+        public TimeSpan StartTime { get; set; }
+        public TimeSpan EndTime { get; set; }
+
+        public string Room { get; set; }
     }
 }

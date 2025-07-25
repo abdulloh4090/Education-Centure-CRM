@@ -9,10 +9,8 @@
         public DateTime RegisterAt { get; set; }
         public bool IsActive { get; set; }
 
-        public int GroupId { get; set; }
-        public Group Group { get; set; }
-
         public ICollection<Payment> Payments { get; set; }
         public ICollection<Attendance> Attandances { get; set; }
+        public ICollection<StudentGroup> StudentGroups { get; set; }
     }
 }

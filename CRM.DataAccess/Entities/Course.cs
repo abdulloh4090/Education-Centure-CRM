@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Education.Centure.CRM.DataAccess.Entities
+﻿namespace Education.Centure.CRM.DataAccess.Entities
 {
     public class Course : BaseEntity
     {
-        public string Name { get; set; }
-        public int MyProperty { get; set; }
+        public string Title { get; set; } // "Frontend Development", "IELTS"
+        public string Description { get; set; }
+        public decimal MonthlyFee { get; set; }
+        public int DurationInMonths { get; set; }
+
+        public ICollection<Group> Groups { get; set; }
     }
 }
