@@ -5,6 +5,12 @@ VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education-Centure-CRM-API", "Education-Centure-CRM-API\Education-Centure-CRM-API.csproj", "{1A087E15-20CE-402E-8586-C07D0CC133B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Centure.CRM.DataAccess", "CRM.DataAccess\Education.Centure.CRM.DataAccess.csproj", "{0F3544E2-52E8-4E39-9496-1F2300883A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education-Centure-CRM.BusinessLogic", "Education-Centure-CRM.BusinessLogicLayer\Education-Centure-CRM.BusinessLogic.csproj", "{416865AA-F057-4E48-81B7-D4E114870282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education-Centure-CRM.Common", "Education-Centure-CRM.Common\Education-Centure-CRM.Common.csproj", "{DAD4B73A-E9E5-4F4A-A9EF-B67991AD8A9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{1A087E15-20CE-402E-8586-C07D0CC133B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A087E15-20CE-402E-8586-C07D0CC133B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A087E15-20CE-402E-8586-C07D0CC133B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3544E2-52E8-4E39-9496-1F2300883A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3544E2-52E8-4E39-9496-1F2300883A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3544E2-52E8-4E39-9496-1F2300883A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3544E2-52E8-4E39-9496-1F2300883A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416865AA-F057-4E48-81B7-D4E114870282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416865AA-F057-4E48-81B7-D4E114870282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416865AA-F057-4E48-81B7-D4E114870282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416865AA-F057-4E48-81B7-D4E114870282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD4B73A-E9E5-4F4A-A9EF-B67991AD8A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD4B73A-E9E5-4F4A-A9EF-B67991AD8A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD4B73A-E9E5-4F4A-A9EF-B67991AD8A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD4B73A-E9E5-4F4A-A9EF-B67991AD8A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
